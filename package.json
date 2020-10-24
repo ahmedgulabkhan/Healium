@@ -1,0 +1,14 @@
+{
+  "name": "Healium",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ahmedgulabkhan/Healium.git",
+  "scripts": {
+    "start": "concurrently \"cd backend && nodemon server.js\" \"cd frontend && yarn start\""
+  },
+  "author": "Ahmed Gulab Khan",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^5.3.0"
+  }
+}
