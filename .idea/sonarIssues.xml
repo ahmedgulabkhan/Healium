@@ -13,6 +13,31 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/frontend/package.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/frontend/src/App.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/frontend/src/index.css">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/frontend/src/index.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/frontend/src/pages/home-page/home-page.component.jsx">
+          <value>
+            <set />
+          </value>
+        </entry>
       </map>
     </option>
   </component>
