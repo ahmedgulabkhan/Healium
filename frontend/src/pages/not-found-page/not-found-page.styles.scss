@@ -1,0 +1,20 @@
+.not-found-page-container {
+  .error-404 {
+    font-size: 100px;
+    color: #28328c;
+  }
+
+  .custom-button {
+    border: 1.5px solid #28328c;
+    font-size: 20px;
+    color: #28328c;
+    background-color: white;
+    margin-top: 30px;
+    padding: 10px 25px;
+    &:hover {
+      cursor: pointer;
+      background-color: #28328c;
+      color: white;
+    }
+  }
+}
