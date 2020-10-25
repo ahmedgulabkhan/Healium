@@ -4,6 +4,8 @@ import Header from "./components/header/header.component";
 import HomePage from "./pages/home-page/home-page.component";
 import { Route, Switch } from "react-router-dom";
 import NotFoundPage from "./pages/not-found-page/not-found-page.component";
+import AppointmentsPage from "./pages/appointments-page/appointments-page.component";
+import StorePage from "./pages/store-page/store-page.component";
 
 const App = () => {
     return (
@@ -11,6 +13,8 @@ const App = () => {
             <Header />
             <Switch>
                 <Route path="/" exact={true} component={HomePage} />
+                <Route path="/appointments" component={AppointmentsPage} />
+                <Route path="/store" component={StorePage} />
                 <Route component={NotFoundPage} />
             </Switch>
         </div>

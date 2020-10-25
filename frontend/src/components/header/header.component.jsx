@@ -1,12 +1,13 @@
 import React from "react";
 import './header.styles.scss';
+import {Link} from "react-router-dom";
 
 const Header = () => {
     return (
         <nav className="navbar navbar-expand-md navbar-dark">
-            <span className="navbar-brand">
+            <Link to="/" className="navbar-brand">
                 <strong>Healium</strong>
-            </span>
+            </Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>

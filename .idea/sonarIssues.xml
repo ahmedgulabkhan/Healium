@@ -63,6 +63,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/frontend/src/pages/appointments-page/appointments-page.component.jsx">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/frontend/src/pages/home-page/home-page.component.jsx">
           <value>
             <set />
@@ -74,6 +79,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/frontend/src/pages/not-found-page/not-found-page.styles.scss">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/frontend/src/pages/store-page/store-page.component.jsx">
           <value>
             <set />
           </value>
