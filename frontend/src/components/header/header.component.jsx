@@ -14,13 +14,13 @@ const Header = () => {
             <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul className="navbar-nav">
                     <li className="nav-item">
-                        Appointments
+                        <Link to='/appointments' className="nav-link custom-nav-link">Appointments</Link>
                     </li>
                     <li className="nav-item">
-                        Store
+                        <Link to='/store' className="nav-link custom-nav-link">Store</Link>
                     </li>
                     <li className="nav-item">
-                        Login
+                        <Link to='/login' className="nav-link custom-nav-link">Login/Register</Link>
                     </li>
                 </ul>
             </div>

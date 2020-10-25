@@ -19,11 +19,15 @@
 
   .navbar-nav {
     .nav-item {
-      padding: 15px 30px;
-      text-decoration: none;
-      &:hover {
-        cursor: pointer;
-        background-color: darken(#28328c, 10%);
+      .nav-link {
+        color: white;
+        padding: 15px 30px;
+        text-decoration: none;
+        &:hover {
+          cursor: pointer;
+          color: white;
+          background-color: darken(#28328c, 10%);
+        }
       }
     }
   }
